@@ -292,7 +292,7 @@ app.post("/users", async (req, res) => {
 app.post('/login', async (req, res) => {
   const { email, password } = req.body;
 
-  if (email === 'agnecy@webhived.com' && password === 'Saad9Hicham') {
+  if (email === 'agency@webhived.com' && password === 'Saad9Hicham') {
     // Admin login
     return res.status(200).json({ message: 'Admin login successful' });
   }
